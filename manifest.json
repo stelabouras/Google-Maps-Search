@@ -1,0 +1,24 @@
+{
+    "name": "Google Maps Search",
+    "description": "Adds tab search functionality to Google Maps. Not affiliated with Google. © 2015 Google Inc. All rights reserved. Google Maps is a trademark of Google Inc.",
+    "author": "Stelios Petrakis",
+    "manifest_version": 2,
+    "version": "1.0",
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "16": "googlemaps-icon-16.png",
+        "32": "googlemaps-icon-32.png",
+        "48": "googlemaps-icon-48.png",
+        "128": "googlemaps-icon-128.png"
+    },
+    "omnibox": {
+        "keyword": "maps.google.com"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
