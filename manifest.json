@@ -1,6 +1,7 @@
 {
     "name": "Google Maps Search",
-    "description": "Adds tab search functionality to Google Maps. Not affiliated with Google. Google Maps is a trademark of Google Inc.",
+    "short_name": "Google Maps Search",
+    "description": "Adds tab search functionality to Google Maps.",
     "author": "Stelios Petrakis",
     "manifest_version": 2,
     "version": "1.0",
